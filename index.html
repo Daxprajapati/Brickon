@@ -1,0 +1,888 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Brickon</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="icon" href="img/icon-5.jpg">
+</head>
+
+<body>
+
+  <nav style="z-index: 22;" class="navbar navbar-expand-lg position-absolute top-0 container-fluid">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="img/Logo-Light.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img style="width: 50%;" src="img/Logo-Dark.png" alt="">
+          </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+
+
+        <div class="offcanvas-body d-md-flex flex-lg-row flex-column">
+
+          <!-- navbar begins -->
+          <ul class="navbar-nav main-navbar justify-content-center flex-grow-lg-1 mx-auto pe-3 gap-3">
+            <li class="nav-item">
+              <a class="nav-link ul-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ul-link active" href="#">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link ul-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Services
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Services</a></li>
+                <li><a class="dropdown-item" href="#">Services Detail</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link ul-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Projects
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Projects</a></li>
+                <li><a class="dropdown-item" href="#">Project Detail</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link ul-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Pages
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Pricing</a></li>
+                <li><a class="dropdown-item" href="#">Our Team</a></li>
+                <li><a class="dropdown-item" href="#">Career</a></li>
+                <li><a class="dropdown-item" href="#">Career Detail</a></li>
+                <li><a class="dropdown-item" href="#">FAQ</a></li>
+                <li><a class="dropdown-item" href="#">404 Pages</a></li>
+                <li><a class="dropdown-item" href="#">Coming Soon</a></li>
+
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link ul-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Blog
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Bolg</a></li>
+                <li><a class="dropdown-item" href="#">Single Blog</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ul-link active" href="#">Contact</a>
+            </li>
+          </ul>
+
+          <div class="nav-button d-flex flex-column mt-3">
+            <button>Contact Us</button>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+  </nav>
+
+  <!-- Section-one -->
+
+  <div class="container-fluid section-one py-md-4">
+    <div class="row py-md-5 my-md-5 mt-5">
+      <div class="w-100 section-one-col px-5 py-md-5 my-md-5"data-aos="fade-up" data-aos-duration="1200">
+        <h1>Building the Future,<br>
+          <span>
+            <hr style="width: 100px;display:inline-block;border: 2px solid white;">Restoring the Past
+          </span>
+        </h1>
+        <p>Our commitment to innovation drives us to employ cutting-edge technology and sustainable<br>practices in
+          every
+          project we undertake. We blend creativity with precision engineering .</p>
+        <button>Our Services</button>
+      </div>
+    </div>
+    <div class="row section-one-bottom">
+      <div style="border-right: 1px solid hsl(0, 0%, 0%);" class="col-4 section-one-bottom-box py-5 px-5">
+        <h1>1,600 K<span style="color: #fcb900;">+</span>
+        </h1>
+        <p>Successfully completed<br>projects across various<br>sectors.</p>
+      </div>
+      <div class="col-4 section-one-bottom-box py-5 px-5">
+        <h1>100<span style="color: #fcb900;">%</span></h1>
+        <p>Building a greener future<br>with every project.</p>
+      </div>
+      <div class="col-4 section-one-bottom-box-img py-5">
+        <h3>Crafting Quality, Building Trust.</h3>
+        <p>Our Projects <i class="fa-solid fa-arrow-right"></i></p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row section-two-bottom">
+    <div class="col-4 section-one-bottom-box py-5 px-5">
+      <h1>1,600 K<span style="color: #fcb900;">+</span>
+      </h1>
+      <p>Successfully completed<br>projects across various<br>sectors.</p>
+    </div>
+    <div class="col-4 section-one-bottom-box py-5 px-5">
+      <h1>100<span style="color: #fcb900;">%</span></h1>
+      <p>Building a greener future<br>with every project.</p>
+    </div>
+    <div class="col-4 section-one-bottom-box-img py-5">
+      <h3>Crafting Quality, Building Trust.</h3>
+      <p>Our Projects <i class="fa-solid fa-arrow-right"></i></p>
+    </div>
+  </div>
+
+
+
+
+  <!-- section-two -->
+
+
+  <div class="container-fluid section-two">
+    <div class="container section-two-box">
+      <div class="row mt-5 section-two-data">
+        <div class="col-xl-5 sec-two-left mt-sm-5"data-aos="fade-right" data-aos-duration="1200">
+          <img class="img-fluid mt-3" src="img/construction.jpg" alt="">
+        </div>
+        <div class="col-xl-7 sec-two-right mt-5"data-aos="fade-up" data-aos-duration="1200">
+          <p class="mt-5">About Us</p>
+          <h1>Leading the Way In Exceptional Construction</h1>
+          <p>At Brickon, we’re more than just builders – we’re visionaries dedicated to transforming spaces
+            with<br>innovation and precision. For over 10, we’ve led the industry with a commitment to quality and an
+            eye<br>for detail, working on diverse projects from skyscrapers to residential developments.</p>
+          <div class="row sec-two-right-one">
+            <div class="col-sm-6 sec-two-bott-left">
+              <div class="sec-two-bott-left-top">
+                <h3>Experience Engineers</h3>
+                <p>Knowledge and practical skills enable them to tackle challenges from start to finish</p>
+                <h3>Modern Technology</h3>
+                <p class="mb-4">Cutting-edge tools and software streamline processes, enabling teams to deliver</p>
+              </div>
+              <div class="sec-two-btn mt-4">
+                <button>Discover More</button>
+              </div>
+            </div>
+
+            <div class="col-sm-6 sec-two-bott-right">
+              <img src="img/download.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- section-three -->
+
+
+  <div class="container-fluid">
+    <div class="row justify-content-center py-3">
+      <div class="col w-100 sec-three-top py-5 ps-sm-5">
+        <div class="row sec-three-top-row">
+          <div class="col-9 ps-lg-5">
+            <p>What We Do</p>
+            <h1>Delivering Quality from Start to Finish.</h1>
+          </div>
+          <div class="col-3 sec-three-top-right px-0">
+            <button>Brows All Services</button>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-3 col-md-6" data-aos="fade-right" data-aos-duration="1200">
+          <div class="sec-three-bottom sec-three-bottom-three p-md-5 p-3">
+            <h4 class="mb-4">Renovation & Remodeling</h4>
+            <p>Transforming spaces with precision<br>and creativity to enhance<br>functionality and style.</p>
+            <p class="mb-5">Learn More</p>
+            <img style="background-color: #1d365c;" class="mt-5" src="img/Icon-1.png" alt="">
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-duration="1200">
+          <div style="height: 460px !important;" class="sec-three-bottom sec-three-bottom-two p-md-5 p-3">
+            <h4 class="mb-4">Sustainable Building</h4>
+            <p>Implementing eco-friendly<br>practices and materials to create<br>sustainable structures.</p>
+            <p class="mb-5">Learn More</p>
+            <img style="background-color: #fcb900;" class="mt-5" src="img/Icon-2.png" alt="">
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6" data-aos="fade-down" data-aos-duration="1200">
+          <div class="sec-three-bottom sec-three-bottom-three p-md-5 p-3">
+            <h4 class="mb-4">Construction Management</h4>
+            <p>Ensuring seamless execution of<br>your project with expert from<br>planning to completion.
+            <p class="mb-5">Learn More</p>
+            <img style="background-color: #1d365c;" class="mt-5" src="img/Icon-3.png" alt="">
+          </div>
+          </p>
+        </div>
+        <div class="col-xl-3 col-md-6" data-aos="fade-right" data-aos-duration="1200">
+          <div class="sec-three-bottom sec-three-bottom-two p-md-5 p-3">
+            <h4 class="mb-4">Residential Construction</h4>
+            <p>Delivering custom-built homes that<br>combine comfort, style, and<br>functionality.</p>
+            <p class="mb-5">Learn More</p>
+            <img style="background-color: #fcb900;" class="mt-5" src="img/Icon-4.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- section-four -->
+
+  <div class="container-fluid section-four">
+    <div class="row justify-content-center">
+      <div class="col sec-four-top py-5">
+        <div class="row sec-four-top-data px-sm-5">
+          <div class="col-xl-6 sec-four-top-data-left" data-aos="fade-right" data-aos-duration="1200">
+            <p>Why Us</p>
+            <h1 style="z-index: 111; position:relative">Exceptional quality that can’t be beaten.</h1>
+            <p>We take pride in delivering a level of quality that simply can’t be surpassed. Our commitment to
+              excellence is woven into the very fabric of our work, and it’s what distinguishes us from the rest.</p>
+            <button>Learn More</button>
+          </div>
+          <div class="col-xl-6"data-aos="fade-down" data-aos-duration="1200">
+            <div class="sec-four-top-rig-box">
+              <div class="sec-four-top-rig-box-data py-4 gap-3 px-4">
+                <div style="background-color: #fcb900;" class="sec-four-top-rig-box-icon">
+                  <i class="fa-solid fa-award"></i>
+                </div>
+                <div class="sec-four-top-rig-box-icon-data">
+                  <h4>Quality Assurance</h4>
+                  <p>We prioritize quality in every aspect of our work, ensuring that your project is built to the
+                    highest
+                    standards</p>
+                </div>
+              </div>
+              <div class="sec-four-top-rig-box-data py-4 gap-3 px-4">
+                <div style="background-color: white;" class="sec-four-top-rig-box-icon">
+                  <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="sec-four-top-rig-box-icon-data">
+                  <h4>Expertise</h4>
+                  <p>Our team comprises seasoned professionals with years of experience in the construction field.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mx-0 px-0">
+        <div class="col w-100 sec-four-center px-0">
+          <video autoplay muted loop id="video">
+            <source src="video.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+      <div class="row px-0">
+        <div class="col w-100 sec-four-bottom py-5">
+          <div class="row py-5 sec-four-bottom-data">
+            <div style="z-index: 111;" class=" col-xl-7 sec-four-bottom-left py-sm-5 ps-sm-5"data-aos="fade-right" data-aos-duration="1200">
+              <h3>Our team of skilled professionals has collectively logged 10K hours of dedication to our craft,
+                ensuring that every detail is meticulously executed. We’ve used over 1M tons of top-quality materials,
+                sourced responsibly, to construct enduring structures that stand the test of time.</h3>
+              <p>We believe that actions speak louder than words, and numbers often tell the most compelling story of
+                our success.</p>
+            </div>
+            <div style="z-index: 111;" class="col-xl-5 sec-four-bottom-right py-5 ps-sm-5 px-0" data-aos="fade-down" data-aos-duration="1200">
+              <div class="row sec-four-bottom-right-one">
+                <div class="col-md-6 sec-four-rig-one-left d-flex flex-column align-items-center py-3">
+                  <h1>86 +</h1>
+                  <p>Professionals in our team</p>
+                </div>
+                <div class="col-md-6 d-flex flex-column align-items-center py-3">
+                  <h1>24 <span style="color: #fcb900;">+</span></h1>
+                  <p>Years of Experience</p>
+                </div>
+              </div>
+              <div class="row sec-four-bottom-right-two">
+                <div class="col-md-6 sec-four-rig-one-left d-flex flex-column align-items-center py-3">
+                  <h1>678 <span style="color:#fcb900">+</span></h1>
+                  <p>Complete Projects</p>
+                </div>
+                <div class="col-md-6 d-flex flex-column align-items-center py-3">
+                  <h1>89 +</h1>
+                  <p>Winning Awards</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- section-five -->
+
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col w-100 sec-five-data">
+        <div class="row sec-five-data-one">
+          <div class="col-xl-6 py-xl-5 my-4 px-5">
+            <p>Our Project</p>
+            <h1>Building Dreams, One Project at a Time</h1>
+          </div>
+          <div class="col-xl-6 sec-five-data-rig py-xl-5 my-4 px-5">
+            <p>Our diverse portfolio spans residential, commercial, and industrial projects, each crafted with
+              meticulous attention to detail.
+            </p>
+            <button>View All Projects</button>
+          </div>
+          <div class="row sec-five-bottom p-0">
+            <div class="col-xl-3 col-md-6" data-aos="fade-right" data-aos-duration="1200">
+              <div class="sec-five-bottom-box">
+                <div class="sec-five-bottom-box-data p-3">
+                  <h2>Greenwood Estates</h2>
+                  <p>Nestled in a tranquil, tree-lined setting, this estate offers elegant homes crafted with
+                    sustainability and comfort in mind.
+                  </p>
+                  <button>See Details</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-6 mb-md-4" data-aos="fade-up" data-aos-duration="1200">
+              <div class="sec-five-bottom-box-two">
+                <div class="sec-five-bottom-box-data p-3">
+                  <h2>Greenwood Estates</h2>
+                  <p>Nestled in a tranquil, tree-lined setting, this estate offers elegant homes crafted with
+                    sustainability and comfort in mind.
+                  </p>
+                  <button>See Details</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-6" data-aos="fade-down" data-aos-duration="1200">
+              <div class="sec-five-bottom-box-three">
+                <div class="sec-five-bottom-box-data p-3">
+                  <h2>Greenwood Estates</h2>
+                  <p>Nestled in a tranquil, tree-lined setting, this estate offers elegant homes crafted with
+                    sustainability and comfort in mind.
+                  </p>
+                  <button>See Details</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-6" data-aos="fade-right" data-aos-duration="1200">
+              <div class="sec-five-bottom-box-four">
+                <div class="sec-five-bottom-box-data p-3">
+                  <h2>Greenwood Estates</h2>
+                  <p>Nestled in a tranquil, tree-lined setting, this estate offers elegant homes crafted with
+                    sustainability and comfort in mind.
+                  </p>
+                  <button>See Details</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- section-six -->
+
+
+  <div class="container-fluid">
+    <div class="container section-six-data">
+      <div class="row d-flex justify-content-center">
+        <div class="w-100 sec-six-top py-5">
+          <p class="text-center">How We Work</p>
+          <h1 class="text-center">The Journey of Your Project with Us</h1>
+        </div>
+        <div class="row sec-six-bottom">
+          <div class="col-xl-6 sec-six-bottom-left" data-aos="fade-right" data-aos-duration="1200">
+            <div class="sec-six-bottom-left-data">
+              <div class="sec-six-bottom-left-box gap-3 px-2">
+                <div class="sec-six-bottom-left-box-icon">
+                  <i class="fa-solid fa-message"></i>
+                </div>
+                <div class="sec-six-bottom-left-box-icon-data">
+                  <h4>
+                    Do You Have A Project To Discuss ?</h4>
+                  <p>Lets Chat</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 sec-six-bottom-right px-2" data-aos="fade-down" data-aos-duration="1200">
+            <div class="sec-six-bottom-right-box">
+              <div class="sec-six-bottom-right-box-icon p-0 m-0">
+                <i style="font-size: 10px;" class="fa-solid fa-square"></i>
+              </div>
+              <div class="line"></div>
+              <div class="sec-six-bottom-right-box-data ps-3">
+                <h4>Planning and Design</h4>
+                <p>In this initial phase, the project requirements and goals are defined, and the design concept is
+                  developed, including architectural plans, engineering drawings, and project specifications.</p>
+              </div>
+            </div>
+            <div class="sec-six-bottom-right-box">
+              <div style="background-color: #1d365c; color:white" class="sec-six-bottom-right-box-icon p-0 m-0">
+                <i style="font-size: 10px;" class="fa-solid fa-square"></i>
+              </div>
+              <div class="line"></div>
+              <div class="sec-six-bottom-right-box-data ps-3">
+                <h4>Permitting and Approvals</h4>
+                <p>This stage involves obtaining the necessary permits and approvals from local authorities, ensuring
+                  compliance with building codes, regulations, and zoning requirements.</p>
+              </div>
+            </div>
+            <div class="sec-six-bottom-right-box">
+              <div class="sec-six-bottom-right-box-icon p-0 m-0">
+                <i style="font-size: 10px;" class="fa-solid fa-square"></i>
+              </div>
+              <div class="line"></div>
+              <div class="sec-six-bottom-right-box-data ps-3">
+                <h4>Site Preparation and Clearing</h4>
+                <p>The construction site is prepared by clearing any existing structures, vegetation, or obstacles,
+                  making way for construction activities to commence.</p>
+              </div>
+            </div>
+            <div class="sec-six-bottom-right-box">
+              <div style="background-color: #1d365c; color:white" class="sec-six-bottom-right-box-icon p-0 m-0">
+                <i style="font-size: 10px;" class="fa-solid fa-square"></i>
+              </div>
+              <div class="sec-six-bottom-right-box-data ps-3">
+                <h4>Foundation and Excavation</h4>
+                <p>The foundation is constructed, providing a solid base for the structure. Excavation work takes place
+                  to prepare the ground and create the necessary trenches and footings.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- section-seven -->
+
+  <div class="container-fluid section-seven px-3 py-5">
+    <div class="row section-seven-data">
+      <div class="col-xl-6 section-seven-left p-sm-5" data-aos="fade-right" data-aos-duration="1200">
+        <p class="px-sm-5 mx-3 mt-5">Testimonials</p>
+        <h1 class="px-sm-5 mx-3 mb-5">Testimonials from Our Trusted Clients</h1>
+        <div id="carouselExample" class="carousel slide px-sm-5">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <p class="px-sm-3 mb-4 sec-sev-left-para">"From start to finish, the team kept us informed about every
+                phase
+                of the
+                construction
+                process. They
+                were always available to answer questions and address concerns. The transparency made all the
+                difference!"</p>
+              <div class="star px-3 mb-3">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="section-seven-left-bottom mx-3 mt-4">
+                <div class="sec-seven-left-bott-img">
+                  <img
+                    src="img/portrait-of-a-confident-businesswoman-with-curly-hair-on-isolated-background--e1737480705441.jpg"
+                    alt="">
+                </div>
+                <div class="sec-seven-left-bott-img-data">
+                  <h3>Linda T</h3>
+                  <p>Property Developer</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <p class="px-sm-3 mb-4 sec-sev-left-para">"We wanted an eco-friendly office building, and they delivered
+                beyond our
+                expectations.
+                They used
+                sustainable materials, implemented energy-efficient systems, and helped us achieve LEED certification!"
+              </p>
+              <div class="star px-3">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="section-seven-left-bottom mx-3 mt-4">
+                <div class="sec-seven-left-bott-img">
+                  <img src="img/portrait-of-businessman-e1737480720635.jpg" alt="">
+                </div>
+                <div class="sec-seven-left-bott-img-data">
+                  <h3>David L</h3>
+                  <p>Green Building Advocate</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <p class="px-sm-3 mb-4 sec-sev-left-para">
+                "We couldn’t be happier with the work! The team was professional, efficient, and attentive to detail.
+                Our new home was completed on time and exceeded all our expectations. The craftsmanship is top-notch!"
+              </p>
+              <div class="star px-3">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="section-seven-left-bottom class=mx-3 mt-4">
+                <div class="sec-seven-left-bott-img">
+                  <img
+                    src="img/shot-of-a-confident-young-businesswoman-standing-against-a-grey-background-e1737480672274.jpg"
+                    alt="">
+                </div>
+                <div class="sec-seven-left-bott-img-data">
+                  <h3>Sarah M.</h3>
+                  <p>Homeowner</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <p class="px-sm-3 mb-4 sec-sev-left-para">
+                "The project was delivered ahead of schedule, which was critical for our business. Their excellent
+                planning and execution ensured a smooth construction process, and we were able to open on time. Highly
+                recommend!
+              </p>
+              <div class="star px-3">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="section-seven-left-bottom mx-3 mt-4">
+                <div class="sec-seven-left-bott-img">
+                  <img
+                    src="img/i-turned-my-passion-into-profit-portrait-of-a-confident-businessman-in-the-office--e1737480687462.jpg"
+                    alt="">
+                </div>
+                <div class="sec-seven-left-bott-img-data">
+                  <h3>Linda T</h3>
+                  <p>Property Developer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span><i class="fa-solid fa-arrow-left"></i></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span><i class="fa-solid fa-arrow-right"></i></span>
+          </button>
+        </div>
+      </div>
+      <div class="col-xl-6 section-seven-right px-0" data-aos="fade-right" data-aos-duration="1200"></div>
+      <div class="w-100 section-seven-container">
+        <img src="img/Logo-1.png" alt="">
+        <img src="img/Logo-3.png" alt="">
+        <img src="img/Logo-4.png" alt="">
+        <img src="img/Logo-5.png" alt="">
+        <img src="img/Logo-6.png" alt="">
+      </div>
+    </div>
+  </div>
+
+
+  <!-- section-eight -->
+
+
+  <div class="container-fluid py-lg-5 my-lg-5 section-eight">
+    <div class="container pb-sm-5 mb-sm-5 section-eight-data">
+      <div class="row section-eight-data">
+        <div class="col-xl-5 section-eight-left-rig px-3 mb-md-3" data-aos="fade-right" data-aos-duration="1200">
+          <p>FAQ</p>
+          <h1 style="font-size: 50px;" class="mb-sm-5 pb-xl-5">Answers to Your Questions About Construction.</h1>
+          <p style="font-size: 22px;" class="pt-5">Still Have Questions?</p>
+          <p class="mb-5 pe-5">Can’t find the answer you’re looking for? Please contact with our customer service.</p>
+          <button style="background-color: #fcb900;">Contact Us</button>
+        </div>
+        <div class="col-xl-7 section-eight-left-rig" data-aos="fade-up" data-aos-duration="1200">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button py-4" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  What is the typical timeline for a construction project?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p> Timelines depend on the project size and scope. Small renovations may take weeks, while larger
+                    builds
+                    can span months to years.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed py-4" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  How do i choose the right contractor?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>Research contractors by checking references, licenses, insurance, and past projects. Obtain
+                    multiple quotes and compare.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed py-4" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  How much does construction cost?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>Costs vary widely based on size, materials, labor, and location. Get detailed estimates from
+                    contractors.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed py-4" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                  What is a contingency budget?
+                </button>
+              </h2>
+              <div id="collapsefour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>A contingency budget is an additional reserve (usually 10-20% of the total cost) for unexpected
+                    expenses.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed py-4" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+                  What materials should i use for my project?
+                </button>
+              </h2>
+              <div id="collapsefive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>This depends on your goals, location, and budget. For example, wood is great for aesthetics, while
+                    steel is strong and durable.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed py-4" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+                  What materials should i use for my project?
+                </button>
+              </h2>
+              <div id="collapsesix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>This depends on your goals, location, and budget. For example, wood is great for aesthetics, while
+                    steel is strong and durable.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- section-nine -->
+
+  <div class="container-fluid section-nine">
+    <div class="row section-nine-data">
+      <div class="col-xl-6 section-nine-left px-5">
+        <h1>Let's Build Something Great Together!</h1>
+        <p>Contact us today, and let the journey to your dream construction project begin!</p>
+        <button>Contact Us</button>
+      </div>
+      <div class="col-xl-6 section-nine-right">
+        <img src="img/Man-1.png" alt="">
+      </div>
+    </div>
+  </div>
+
+
+  <!-- section-ten -->
+
+
+  <div class="container-fluid section-ten">
+    <div class="container section-ten-data">
+      <div class="row">
+        <div class="col w-100 sec-ten-top py-5">
+          <p class="text-center">Our Blog</p>
+          <h1 class="text-center">Latest Insight & News</h1>
+        </div>
+      </div>
+      <div class="row section-ten-bottom-data">
+        <div class="col-xl-6" data-aos="fade-right" data-aos-duration="1200">
+          <div class="sec-ten-left pb-3 px-3">
+            <div class="clock d-flex align-items-center z-index-111 position-relative gap-2">
+              <i class="fa-solid fa-clock"></i>
+              <p class="my-0">January 19, 2025</p>
+            </div>
+            <h2>Construction is a fundamental pillar of human advancement</h2>
+          </div>
+        </div>
+        <div class="col-xl-6 sec-ten-right d-flex flex-column gap-4 px-0"data-aos="fade-down" data-aos-duration="1200">
+          <div class="sec-ten-right px-3">
+            <div class="sec-ten-right-top-bott">
+              <div class="col-xl-6 sec-ten-rig-top-bott-left">
+                <img
+                  src="img/apartment-or-office-tall-building-unfinished-under-construction-among-green-tree-tops-e1737480941739.jpg"
+                  alt="">
+              </div>
+              <div class="col-6 sec-ten-rig-top-bott-left px-4">
+                <div class="sec-ten-rig-top-bott-left-data d-flex align-items-center gap-2">
+                  <i class="fa-solid fa-clock"></i>
+                  <p class="my-0">January 19, 2025</p>
+                </div>
+                <p>Construction isn’t just about buildings and infrastructure</p>
+                <a href="">Read More</a>
+              </div>
+            </div>
+            <div class="sec-ten-right-top-bott">
+              <div class="col-6 sec-ten-rig-top-bott-left">
+                <img src="img/construction-site-2-e1737480640592.jpg" alt="">
+              </div>
+              <div class="col-6 sec-ten-rig-top-bott-left px-4">
+                <div class="sec-ten-rig-top-bott-left-data d-flex align-items-center gap-2">
+                  <i class="fa-solid fa-clock"></i>
+                  <p class="my-0">January 19, 2025</p>
+                </div>
+                <p>Construction isn’t just about buildings and infrastructure</p>
+                <a href="">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- section-eleven -->
+
+  <div class="container-fluid section-eleven">
+    <div class="container section-eleven-box">
+      <div class="row section-eleven-box-data">
+        <div
+          class="section-eleven-box-data-one col-xl-7 d-flex flex-column justify-content-center gap 5 px-sm-5 pt-md-4" data-aos="fade-right" data-aos-duration="1200">
+          <h3>Subcribe Our Newsletter</h3>
+          <p>Sign up our newsletter to get update information, news and free insight.</p>
+          <form>
+            <input type="text" placeholder="Your Email Address">
+            <button><i class="fa-solid fa-envelope"></i>Subscribe</button>
+          </form>
+        </div>
+        <div class="col-xl-5 section-eleven-rig px-0" data-aos="fade-up" data-aos-duration="1200">
+          <img src="img/Property-1.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- section-twelve -->
+
+  <div class="container-fluid section-twelve">
+    <div class="container section-twelve-box py-5 pb-3 mt-5">
+      <div class="row pt-lg-5 mt-lg-5">
+        <div class="col-lg-4 col-12 sec-twelve-one py-5 mt-3">
+          <img src="img/Logo-Light.png" alt="">
+          <p>We take pride in transforming your visions into tangible structures that stand the test of time.</p>
+        </div>
+        <div class="col-lg-2 col-sm-3 sec-twelve-two py-sm-5 mt-3">
+          <h4>Quick Menu</h4>
+          <ul class="ps-0">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Our Villas</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-sm-3 sec-twelve-two py-sm-5 mt-3">
+          <h4>Support</h4>
+          <ul class="ps-0">
+            <li><a href="">FAQ</a></li>
+            <li><a href="">Privacy & Cookies</a></li>
+            <li><a href="">Legal</a></li>
+            <li><a href="">Accessibility</a></li>
+            <li><a href="">Sitemap</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-sm-3 sec-twelve-two py-sm-5 mt-3">
+          <h4>Contact Info</h4>
+          <p>A : Building W 13th Parks Suite 559, Denver</p>
+          <p>P : +0 (555) 123 45 67</p>
+          <p>E : brickon@support.com</p>
+        </div>
+        <div class="col-lg-2 col-sm-3 sec-twelve-two py-sm-5 mt-3">
+          <h4>Social Media</h4>
+          <span class="d-flex align-items-center gap-2 mb-2"> <i class="fa-brands fa-facebook"></i>
+            <p class="my-0">Facebook</p>
+          </span>
+          <span class="d-flex align-items-center gap-2 mb-2"> <i class="fa-brands fa-instagram"></i>
+            <p class="my-0">Instagram</p>
+          </span>
+          <span class="d-flex align-items-center gap-2 mb-2"> <i class="fa-brands fa-twitter"></i>
+            <p class="my-0">Twitter</p>
+          </span>
+          <span class="d-flex align-items-center gap-2 mb-2"> <i class="fa-brands fa-youtube"></i>
+            <p class="my-0">Youtube</p>
+          </span>
+        </div>
+        <div class="sec-twelve-bott d-flex">
+          <p>Copyright © 2025 All rights reserved.</p>
+          <p>Construction Template Kit by codeinsolutions</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+    crossorigin="anonymous"></script>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+
+</html>

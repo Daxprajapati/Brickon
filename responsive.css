@@ -1,0 +1,511 @@
+@media only screen and (max-width:1024px) {
+  .section-one {
+    height: auto;
+  }
+
+  /* .section-one-bottom{
+        flex-direction: column;
+        width: 100%;
+    }
+    .section-one-bottom-box{
+        width: 100% !important;
+    }
+    .section-one-bottom-box-img{
+        width: 100% !important;
+    } */
+
+  .navbar-nav {
+    width: 80% !important;
+  }
+
+  .section-one-bottom {
+    width: 100%;
+  }
+
+  .section-one-col {
+    bottom: 280px;
+  }
+
+  .section-two-data {
+    flex-direction: column-reverse;
+  }
+
+  .sec-two-left {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* .sec-two-right{
+        width: 100% !important;
+     } */
+  .sec-three-bottom-three {
+    margin-bottom: 25px;
+  }
+
+  .sec-four-top-data {
+    flex-direction: column;
+  }
+
+  .sec-four-top-data-left {
+    margin-bottom: 20px;
+  }
+
+  .sec-four-bottom-data {
+    flex-direction: column;
+  }
+
+  .sec-four-bottom-right-two {
+    width: 80%;
+  }
+
+  .sec-five-data-one {
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+
+  .sec-six-bottom {
+    flex-direction: column;
+  }
+
+  .sec-six-bottom-right {
+    margin-top: 20px !important;
+  }
+
+  .section-seven-data {
+    flex-direction: column-reverse;
+  }
+
+  .section-eight-data {
+    flex-direction: column;
+  }
+
+  .section-nine-data {
+    flex-direction: column;
+  }
+
+  .section-ten-bottom-data {
+    flex-direction: column;
+  }
+
+  .sec-ten-right-top-bott {
+    flex-direction: column;
+    margin-bottom: 25px;
+  }
+
+  .sec-ten-rig-top-bott-left {
+    height: 180px;
+  }
+
+  .sec-ten-left {
+    margin-bottom: 20px;
+  }
+
+  .sec-ten-rig-top-bott-left {
+    width: 100% !important;
+  }
+
+  .section-eleven-box-data {
+    flex-direction: column;
+  }
+
+  form input {
+    width: 700px;
+  }
+
+  .section-twelve {
+    height: auto;
+  }
+}
+
+@media only screen and (max-width:980px) {
+
+  .section-two-box {
+    min-width: 100%;
+  }
+
+  .section-two-bottom {
+    display: flex !important;
+    flex-direction: column;
+  }
+
+  .section-one-bottom {
+    display: none !important;
+  }
+
+  .section-one-bottom-box {
+    width: 100% !important;
+    border-right: none;
+    border-bottom: 1px solid black;
+  }
+
+  .section-one-bottom-box-img {
+    width: 100% !important;
+  }
+
+  /* nav links color */
+
+  a.ul-link {
+    color: rgb(0, 0, 0) !important;
+  }
+
+
+  .section-one-bottom-box p br {
+    display: none;
+  }
+
+  .section-six-data {
+    min-width: 100%;
+  }
+
+  .section-eight-data {
+    min-width: 100%;
+  }
+
+  .section-ten-data{
+    min-width: 100%;
+  }
+  .section-twelve-box{
+    min-width: 100%;
+  }
+
+  .section-eleven-box{
+    min-width:90%
+  }
+
+}
+
+
+
+
+@media only screen and (max-width:768px) {
+
+  @keyframes ani {
+
+    0%,
+    100% {
+      background-image: url(img/construction-1.jpg);
+      background-size: 160%;
+    }
+
+    30% {
+      background-image: url(img/construction-1.jpg);
+      background-size: 170%;
+    }
+
+    33% {
+      background-image: url(img/construction.jpg);
+      background-size: 160%;
+    }
+
+    63% {
+      background-image: url(img/construction.jpg);
+      background-size: 170%;
+    }
+
+    66% {
+      background-image: url(img/construction-site-with-cranes-at-sunset-construction-of-an-apartment-building.jpg);
+      background-size: 160%;
+    }
+
+    97% {
+      background-image: url(img/construction-site-with-cranes-at-sunset-construction-of-an-apartment-building.jpg);
+      background-size: 170%;
+    }
+  }
+
+
+
+  .section-one-col h1 {
+    font-size: 60px;
+  }
+
+  .section-one-col p br {
+    display: none;
+  }
+
+  .section-seven-container img:last-child {
+    display: none;
+  }
+
+  /* .section-seven-conatiner img:nth-child(5){
+    display: none;
+   } */
+  .sec-three-top-row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-two-bottom {
+    width: 100%;
+  }
+
+  .sec-three-top-right {
+    width: 29% !important;
+  }
+
+  .sec-three-top-right button {
+    padding: 15px 30px;
+  }
+}
+
+@media only screen and (max-width:480px) {
+
+  .section-one {
+    height: 60vh;
+  }
+
+  .section-one-col h1 {
+    font-size: 30px;
+  }
+
+  .section-one-col p {
+    font-size: 13px;
+  }
+
+  .sec-two-bott-left {
+    margin-bottom: 10px;
+  }
+
+  .sec-two-left img {
+    height: 50vh;
+  }
+
+  .sec-three-bottom-two {
+    margin-bottom: 25px;
+  }
+
+
+  .sec-six-bottom-right {
+    height: auto;
+  }
+
+  .section-seven-container {
+    flex-direction: column;
+    height: auto;
+    gap: 30px;
+    margin-bottom: 10px;
+    padding: 20px 0px;
+  }
+
+  /* .section-seven-container img:nth-child(3) {
+    display: none;
+  } */
+
+  /* .section-seven-container img:nth-child(4) {
+    display: none;
+  } */
+  .section-seven-container img:last-child {
+    display: flex;
+  }
+
+
+
+  .sec-five-bottom-box-four,
+  .sec-five-bottom-box-three,
+  .sec-five-bottom-box-two,
+  .sec-five-bottom-box {
+    height: 400px;
+  }
+
+  .sec-five-bottom {
+    padding-right: 0 !important;
+  }
+
+  .sec-five-bottom {
+    gap: 10px;
+  }
+
+  .section-nine-right {
+    height: 320px;
+  }
+
+  .section-nine-right img {
+    height: 400px;
+  }
+
+  .section-seven-right {
+    height: 425px;
+  }
+
+  .sec-six-bottom-left {
+    height: 435px;
+  }
+
+  .sec-six-bottom-left-box {
+    display: block;
+    padding: 20px;
+  }
+
+  .sec-four-rig-one-left {
+    border-right: none;
+    border-bottom: 2px solid white;
+    /* padding: 15px 0px; */
+  }
+
+  .section-eight-left-rig {
+    margin-bottom: 20px;
+  }
+
+  .sec-four-bottom-right-one {
+    width: 100%;
+  }
+
+  .sec-four-bottom-right-two {
+    width: 100%;
+  }
+
+  .sec-two-right-one {
+    flex-direction: column;
+  }
+
+  .sec-six-bottom-right {
+    margin: 20px 0px !important;
+  }
+
+  .section-eleven-box-data-one {
+    margin-top: 10px !important;
+  }
+
+  form {
+    flex-direction: column;
+  }
+
+  form input {
+    width: 100%;
+    padding: 0px 10px;
+  }
+
+  .sec-twelve-bott {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .sec-twelve-bott p {
+    margin-bottom: 0;
+  }
+
+  .line {
+    height: 130px;
+  }
+
+  .section-eight-left-rig h1 {
+    font-size: 40px !important;
+  }
+
+  .sec-ten-left {
+    height: 360px;
+  }
+
+  .sec-three-top-right {
+    width: 44% !important;
+  }
+
+  .sec-sev-left-para {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width:360px) {
+
+
+
+  @keyframes ani {
+
+    0%,
+    100% {
+      background-image: url(img/construction-1.jpg);
+      background-size: 220%;
+    }
+
+    30% {
+      background-image: url(img/construction-1.jpg);
+      background-size: 230%;
+    }
+
+    33% {
+      background-image: url(img/construction.jpg);
+      background-size: 220%;
+    }
+
+    63% {
+      background-image: url(img/construction.jpg);
+      background-size: 230%;
+    }
+
+    66% {
+      background-image: url(img/construction-site-with-cranes-at-sunset-construction-of-an-apartment-building.jpg);
+      background-size: 220%;
+    }
+
+    97% {
+      background-image: url(img/construction-site-with-cranes-at-sunset-construction-of-an-apartment-building.jpg);
+      background-size: 230%;
+    }
+  }
+
+
+  .section-one-col h1 {
+    font-size: 25px;
+  }
+
+
+  .section-one-col p {
+    font-size: 13px;
+  }
+
+  .sec-three-top-right {
+    width: 59% !important;
+  }
+
+  .sec-six-bottom-left-box {
+    height: 175px;
+    width: 310px;
+    left: 0;
+    bottom: 0;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  form input {
+    width: 100%;
+  }
+
+  form button {
+    width: 55%;
+  }
+
+  /* .section-nine-right img {
+    height: auto;
+  } */
+
+  .section-seven-right {
+    height: 390px;
+  }
+
+  .sec-six-bottom-left {
+    height: 410px;
+  }
+
+  .sec-sev-left-para {
+    font-size: 24px;
+  }
+
+  .section-eight-left-rig h1 {
+    font-size: 30px !important;
+  }
+
+  .line {
+    height: 177px;
+  }
+
+  .sec-twelve-bott p {
+    text-align: center;
+  }
+
+}
